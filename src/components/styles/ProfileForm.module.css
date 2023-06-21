@@ -1,0 +1,37 @@
+.formUser {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.formUser button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #800000;
+    border: 1px solid #800000;
+    color: white;
+    padding: 0.25rem 2rem;
+    width: fit-content;
+  }
+
+.formUser button:hover,
+.formUser button:active {
+  background-color: #fff;
+  border-color: #800000;
+  color: #800000;
+}
+
+.SelectInput label{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.SelectInput select{
+    width: 100%;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding: 0.25rem 2rem;
+}

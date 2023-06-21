@@ -1,0 +1,16 @@
+ .container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+  }
+
+
+  .closedButton {
+    font: inherit;
+    cursor: pointer;
+    background-color: #800000;
+    border: 1px solid #800000;
+    color: white;
+    padding: 0.25rem 2rem;
+  }

@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+  
+  .form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #800000;
+    border: 1px solid #800000;
+    color: white;
+    padding: 0.25rem 2rem;
+  }
+
+  .content{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding: 1re;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+
+}
+.form button:hover,
+.form button:active {
+  background-color: #fff;
+  border-color: #800000;
+  color: #800000;
+}

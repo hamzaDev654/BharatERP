@@ -1,0 +1,31 @@
+
+.infor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75rem;
+}
+.imageInfo img{
+    width: 14rem;
+    border-radius: 50%;
+    
+}
+.fallback{
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    margin-top: 20rem;
+}
+
+
+.message{
+    text-align: center;
+    font-size: larger;
+    margin-top: 20rem;
+    color: green;
+    width: fit-content;
+}
+.none{
+    display: none;
+   
+}
+
